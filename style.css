@@ -1,128 +1,202 @@
-body {
-
-
-    font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-
-    font-size: 14px;
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-.sora- {
-    font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
-    /* font-weight: 400; */
-    font-style: normal;
+* {
+    margin: 0;
+    color: #333333;
 }
-
 
 section {
-    background-color: #FAFAF9;
-    /* margin: 72px; */
-
+    /* background-color: mediumvioletred; */
     display: grid;
-    gap: 32px;
-
+    grid-gap: 10px;
     grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: repeat(14, 40px); */
 
-    grid-template-rows: 168px 1fr 168px;
 
+
+
+    width: 1440px;
+    height: 1080px;
+}
+
+.header {
+
+    grid-column: 1 / 4;
+    
+    padding-top: 40px;
+}
+
+.header h3 {
+
+    /* border: 1px solid tomato; */
+
+    height: 35px;
+    width: 150px;
+    padding: 0;
+    margin: 0 0 0 77px;
+
+
+
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25.18px;
+    letter-spacing: -0.08em;
+    text-align: left;
 
 }
 
+/* .body{
 
-.card {
+    display: flex;
+} */
 
-    grid-column: 5 / 9;
-    grid-row: 2 / 3;
+.img {
 
-    background-color: #FFFFFF;
-    /* margin-top: 168px; */
+    grid-column: 2 / 6;
+
+    /* border: 1px solid thistle; */
+
+    width: 539.22px;
+    height: 447.43px;
 
 
-    width: 368px;
-    height: 395px;
-
-    border-radius: 10px;
-
-    /* display: flex;
-    justify-content: center; */
-}
-
-.card-container {
-    color: #FAFAF9;
-    width: 336px;
-    margin: 16px auto;
-}
-
-.card-image {
-
-    height: 152px;
-
-    border-radius: 15px;
-
-    background-image: url('cactus_img.jpg');
+    background-image: url('./resourse/Scarecrow.png');
     background-size: contain;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 
-.card-container>input {
-    font-size: 10px;
-    font-weight: 800;
-    color: #883AE1;
-    background-color: #E6D6FC;
+.content {
 
-    margin: 16px 0;
-    padding: 6px 16px;
+    
+    
+    /* background-color: mediumaquamarine; */
 
-    border: none;
-    border-radius: 50px;
+    width: 586px;
+    height: 625px;
+
+
+    grid-column: 7 / -2;
+
+
+
+
 }
 
-.card-container h3 {
-    font-size: 18px;
-    font-weight: 800;
-    color: #20293A;
-    margin-bottom: 6px;
+.content h1 {
+
+    width: 586px;
+    height: 190px;
+
+    /* border: 1px solid whitesmoke; */
+
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 94.78px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
 }
 
-p {
-    color: #6C727F;
+.content p {
+    /* border: 1px solid maroon; */
+    width: 381px;
+    padding: 76px 0;
+    /* height: 108px; */
+
+
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35.54px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+
 }
 
-#p1 {
-    margin-bottom: 20px;
+.content input {
+    width: 216px;
+    height: 68px;
+
+    color: #FFFFFF;
+    background-color: #333333;
+
+
+    font-family: Space Mono;
     font-size: 14px;
+    font-weight: 700;
+    line-height: 20.73px;
+    letter-spacing: -0.035em;
+    text-align: center;
+
 }
 
-#p2 {
-    margin-bottom: 4px;
-    padding-left: 16px;
-    font-size: 12px;
-}
 
-
-@media screen and (max-width:650px) {
-
-    /* .card{background-color: #6C727F;} */
-
-    .card {
-
-        grid-column: 3 / 11;
-
-        background-color: #FFFFFF;
-
-
-        width: 368px;
-        height: 395px;
-
-        border-radius: 10px;
-/* 
+@media (max-width: 330px) {
+    section {
+        /* background-color: mediumvioletred; */
+        /* display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(5, 1fr); */
+        /* grid-template-rows: repeat(14, 40px); */
+    
         display: flex;
-        justify-content: center; */
+        flex-direction: column;
+        
+    
+    
+    
+        width: 100%;
+        height: 1080px;
+
+        padding: 0 23px;
+    }
+
+    .header {
+
+        
+        padding-top: 40px;
+    }
+    .header h3{margin: 0;}
+
+    .img {
+
+
+    
+        /* border: 1px solid thistle; */
+    
+        width: 539.22px;
+        height: 447.43px;
+    
+    
+        background-image: url('./resourse/Scarecrow.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+
+    .content {
+
+    
+    
+        /* background-color: mediumaquamarine; */
+    
+        width: 586px;
+        height: 625px;
+
+    
+    
+    
+    
     }
 
 }
