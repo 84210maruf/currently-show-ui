@@ -18,9 +18,9 @@ section {
 
 
 
-
+/* 
     width: 1440px;
-    height: 1080px;
+    height: 1080px; */
 }
 
 .header {
@@ -140,7 +140,7 @@ section {
 }
 
 
-@media (max-width: 340px) {
+@media (max-width: 640px) {
     section {
         background-color: mediumvioletred;
         /* display: grid;
