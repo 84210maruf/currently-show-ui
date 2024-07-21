@@ -80,6 +80,9 @@ main > p{
     background-repeat: no-repeat;
     background-position: center top;
 }
+.card_one{
+    position: relative;top: 80px;
+}
 .two{
     background-image: url("./resource/bg-cafe.jpg");
     background-size: 350px;
@@ -96,7 +99,7 @@ main > p{
     background-image: url("./resource/bg-cafe.jpg");
     background-size: 350px;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: top;
 }
 .five{
     background-image: url("./resource/bg-cafe.jpg");
@@ -109,4 +112,9 @@ main > p{
     background-size: 350px;
     background-repeat: no-repeat;
     background-position: right top;
+}
+
+.card img{
+    width: 20px;
+    margin: 0;padding: 0;
 }
