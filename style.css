@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+body{background-color: #111315;}
 section{
     background-color: #1B1D1F;
     /* height: 800px; */
@@ -19,7 +19,7 @@ header{
 }
 
 main{
-    background-color: #18191b ;
+    background-color: #111315 ;
     /* min-height:1000px; */
     width: 80%;
 
@@ -44,6 +44,8 @@ main > p{
     /* margin-top: 10px; */
     margin: 20px auto 10px;
     width: 50%;
+    text-align: center;
+    color: #6F757C;
 }
 
 .category{
@@ -62,7 +64,7 @@ main > p{
 
 .products{
     /* border: 1px solid gainsboro; */
-    height:350px;
+    /* height:350px; */
 
     display: flex;
     /* flex-direction: row; */
@@ -78,13 +80,22 @@ main > p{
 
     
 }
+.card > button{
+    position: absolute;margin: 10px;
+
+    height: 20px;width: 70px;
+    border: none;
+
+    border-radius: 10px;
+    background-color: #F6C768;
+}
 .card_button{
     padding: 5px;
     display: flex;
     justify-content: space-between;}
 .card_button button{
         height: 20px;width: 70px;
-        background-color: rgb(232, 178, 0);
+        background-color: #BEE3CC;color: black;
         border-radius: 10px;
         border: none;
 }
