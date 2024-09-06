@@ -21,57 +21,125 @@
 
 </head>
 
-<body class="text-gray-600 work-sans leading-normal tracking-normal">
+<body class="bg-gray-50 text-gray-600 work-sans leading-normal tracking-normal">
 
-    <div class="navbar bg-base-100 md:flex justify-between">
+    <!--Nav start -->
+    <nav class="shadow-md mb-2">
+        <div class="navbar md:flex justify-between ">
 
-        <div class="navbar-start md:hidden">
-            <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+            <div class="navbar-start sm:hidden">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h7" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm  dropdown-content top-16  bg-base-100 rounded-box z-[11] shadow">
+                       
+                        <h1 class="text-lg font-semibold mx-auto py-2">Home</h1>
+                        
+                        <!-- nested drop-down  -->
+                        <li>
+                            <details class="mb-2 w-screen">
+                                <summary class="bg-gray-100 p-3 rounded-lg cursor-pointer shadow">
+                                    <span class="font-semibold">About</span>
+                                </summary>
+                                <ul class="">
+                                    <li class="">content-1</li>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- nested drop-down  -->
+                        <li>
+                            <details class="mb-2">
+                                <summary class="bg-gray-100 p-3 rounded-lg cursor-pointer shadow">
+                                    <span class="font-semibold">About</span>
+                                </summary>
+                                <ul class="">
+                                    <li class="">content-1</li>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- nested drop-down  -->
+                        <li>
+                            <details class="mb-2">
+                                <summary class="bg-gray-100 p-3 rounded-lg cursor-pointer shadow">
+                                    <span class="font-semibold">About</span>
+                                </summary>
+                                <ul class="">
+                                    <li class="">content-1</li>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                </ul>
+                            </details>
+                        </li>
+                        <!-- nested drop-down  -->
+                        <li>
+                            <details class="mb-2">
+                                <summary class="bg-gray-100 p-3 rounded-lg cursor-pointer shadow">
+                                    <span class="font-semibold">About</span>
+                                </summary>
+                                <ul class="">
+                                    <li class="">content-1</li>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                    <p class="text-gray-800 shadow-md my-2 rounded">content-1 for Nested Item 1</p>
+                                </ul>
+                            </details>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="navbar-center">
+                <div class="avatar">
+                    <div class="w-12 sm:w-20 mask mask-hexagon">
+                        <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                    </div>
+                </div>
+                <a class="btn btn-ghost text-xl cursor-pointer">daisyUI</a>
+            </div>
+
+            <div class="navbar-end sm:hidden">
+                <button class="btn btn-ghost btn-circle">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h7" />
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
-                </div>
-                <ul tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a>Homepage</a></li>
+                </button>
 
-                    <li>
-                    <details class="mb-2">
-                        <summary class="bg-gray-100 p-3 rounded-lg cursor-pointer shadow">
-                            <span class="font-semibold">Portfolio</span>
-                        </summary>
-                        <div class="bg-white p-4">
-                            <p class="text-gray-800">Content for Nested Dropdown 1</p>
-                        </div>
-                    </details>
-                </li>
+                <a class="flex pl-3 no-underline hover:text-black" href="#">
+                    <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M21,7H7.462L5.91,3.586C5.748,3.229,5.392,3,5,3H2v2h2.356L9.09,15.414C9.252,15.771,9.608,16,10,16h8 c0.4,0,0.762-0.238,0.919-0.606l3-7c0.133-0.309,0.101-0.663-0.084-0.944C21.649,7.169,21.336,7,21,7z M17.341,14h-6.697L8.371,9 h11.112L17.341,14z" />
+                        <circle cx="10.5" cy="18.5" r="1.5" />
+                        <circle cx="17.5" cy="18.5" r="1.5" />
+                    </svg>
+                </a>
 
-                    <li><a>About</a></li>
-                </ul>
-            </div>
-        </div>
+                <a class="flex sm:hidden pl-3 no-underline hover:text-black" href="#">
+                    <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <circle fill="none" cx="12" cy="7" r="3" />
+                        <path
+                            d="M12 2C9.243 2 7 4.243 7 7s2.243 5 5 5 5-2.243 5-5S14.757 2 12 2zM12 10c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3S13.654 10 12 10zM21 21v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h2v-1c0-2.757 2.243-5 5-5h4c2.757 0 5 2.243 5 5v1H21z" />
+                    </svg>
+                </a>
 
-        <div class="navbar-center">
-            <div class="avatar">
-                <div class="w-12 md:w-20 mask mask-hexagon">
-                    <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-                </div>
-            </div>
-            <a class="btn btn-ghost text-xl cursor-pointer">daisyUI</a>
-        </div>
 
-        <div class="navbar-end">
-            <button class="btn btn-ghost btn-circle">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                </svg>
-            </button>
-            <button class="btn btn-ghost btn-circle">
+                <!-- <button class="btn btn-ghost btn-circle">
                 <div class="indicator">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -80,92 +148,10 @@
                     </svg>
                     <span class="badge badge-xs badge-primary indicator-item"></span>
                 </div>
-            </button>
-        </div>
-    </div>
-
-
-    <!--Nav start -->
-    <nav id="header" class="hidden w-full bg-white z-20 top-0">
-
-
-        <div class="py-2 md:pb-0 sm:pb-4 sm:px-4 flex flex-wrap items-center justify-between mt-0">
-
-            <div class="mx-4">
-                <button class="block md:hidden p-2 rounded focus:outline-none shadow-sm focus:shadow-xl  group">
-                    <div class="w-5 h-1 bg-gray-600 mb-1"></div>
-                    <div class="w-5 h-1 bg-gray-600 mb-1"></div>
-                    <div class="w-5 h-1 bg-gray-600 mb-0"></div>
-
-                    <div class="absolute px-4 top-[49px] sm:top-[80px] right-full w-1/2 bg-gray-100 text-black font-semibold border rounded opacity-0
-                    group-focus:left-0 group-focus:opacity-95 transition-full duration-300 shadow-xl z-20">
-
-                        <h1 class="py-6 font-bold">MENU</h1>
-
-                        <ul class="cursor-pointer pb-6">
-
-                            <li
-                                class="flex justify-between hover:bg-gray-200 py-4 px-6 w-full rounded border-b-[1px] shadow-md mb-2 duration-300 hover:scale-[1.03]">
-                                <p>Home</p>
-                                <p>></p>
-                            </li>
-                            <li
-                                class="flex justify-between hover:bg-gray-200 py-4 px-6 w-full rounded border-b-[1px] shadow-md mb-2 duration-300 hover:scale-[1.03]">
-                                <p>Home</p>
-                                <p>></p>
-                            </li>
-                            <li
-                                class="flex justify-between hover:bg-gray-200 py-4 px-6 w-full rounded border-b-[1px] shadow-md mb-2 duration-300 hover:scale-[1.03]">
-                                <p>Home</p>
-                                <p>></p>
-                            </li>
-                            <li
-                                class="flex justify-between hover:bg-gray-200 py-4 px-6 w-full rounded border-b-[1px] shadow-md mb-2 duration-300 hover:scale-[1.03]">
-                                <p>Home</p>
-                                <p>></p>
-                            </li>
-                            <li
-                                class="flex justify-between hover:bg-gray-200 py-4 px-6 w-full rounded border-b-[1px] shadow-md mb-2 duration-300 hover:scale-[1.03]">
-                                <p>Home</p>
-                                <p>></p>
-                            </li>
-                            <li
-                                class="flex justify-between hover:bg-gray-200 py-4 px-6 w-full rounded border-b-[1px] shadow-md mb-2 duration-300 hover:scale-[1.03]">
-                                <p>Home</p>
-                                <p>></p>
-                            </li>
-                            <li
-                                class="flex justify-between hover:bg-gray-200 py-4 px-6 w-full rounded border-b-[1px] shadow-md mb-2 duration-300 hover:scale-[1.03]">
-                                <p>Home</p>
-                                <p>></p>
-                            </li>
-                            <li
-                                class="flex justify-between hover:bg-gray-200 py-4 px-6 w-full rounded border-b-[1px] shadow-md mb-2 duration-300 hover:scale-[1.03]">
-                                <p>Home</p>
-                                <p>></p>
-                            </li>
-
-                        </ul>
-                    </div>
-                </button>
-
-
-
+            </button> -->
             </div>
 
-            <div class="block">
-                <a class="flex items-center justify-center tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-lg md:text-2xl "
-                    href="#">
-                    <svg class="fill-current h-10 md:h-24 w-10 md:w-24 text-gray-800 mr-2"
-                        xmlns="http://www.w3.org/2000/svg" width="40" viewBox="0 0 24 24">
-                        <path
-                            d="M5,22h14c1.103,0,2-0.897,2-2V9c0-0.553-0.447-1-1-1h-3V7c0-2.757-2.243-5-5-5S7,4.243,7,7v1H4C3.447,8,3,8.447,3,9v11 C3,21.103,3.897,22,5,22z M9,7c0-1.654,1.346-3,3-3s3,1.346,3,3v1H9V7z M5,10h2v2h2v-2h6v2h2v-2h2l0.002,10H5V10z" />
-                    </svg>
-                    <p>JACKET-POINT</p>
-                </a>
-            </div>
-
-            <form class="max-w-md ml-auto hidden sm:flex">
+            <form class="navbar-end hidden sm:flex">
                 <div class="relative">
                     <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
                         <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
@@ -182,44 +168,10 @@
                         class="text-white absolute end-1 bottom-1 bg-blue-400 hover:bg-blue-800 font-medium rounded-lg text-sm px-4 py-2 ">Search</button>
                 </div>
             </form>
-
-
-            <div class="max-w-md ml-auto min-[300px]:flex sm:hidden start-0 flex items-center ps-3 cursor-pointer">
-
-                <a class="pl-3 inline-block no-underline hover:text-black" href="../sidebar-slide/index.html">
-                    <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24">
-                        <path
-                            d="M10,18c1.846,0,3.543-0.635,4.897-1.688l4.396,4.396l1.414-1.414l-4.396-4.396C17.365,13.543,18,11.846,18,10 c0-4.411-3.589-8-8-8s-8,3.589-8,8S5.589,18,10,18z M10,4c3.309,0,6,2.691,6,6s-2.691,6-6,6s-6-2.691-6-6S6.691,4,10,4z" />
-                    </svg>
-                </a>
-
-                <a class="pl-3 inline-block no-underline hover:text-black" href="../sidebar-slide/index.html">
-                    <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24">
-                        <path
-                            d="M21,7H7.462L5.91,3.586C5.748,3.229,5.392,3,5,3H2v2h2.356L9.09,15.414C9.252,15.771,9.608,16,10,16h8 c0.4,0,0.762-0.238,0.919-0.606l3-7c0.133-0.309,0.101-0.663-0.084-0.944C21.649,7.169,21.336,7,21,7z M17.341,14h-6.697L8.371,9 h11.112L17.341,14z" />
-                        <circle cx="10.5" cy="18.5" r="1.5" />
-                        <circle cx="17.5" cy="18.5" r="1.5" />
-                    </svg>
-                </a>
-
-                <a class="flex pl-3 no-underline hover:text-black" href="#">
-                    <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                        viewBox="0 0 24 24">
-                        <circle fill="none" cx="12" cy="7" r="3" />
-                        <path
-                            d="M12 2C9.243 2 7 4.243 7 7s2.243 5 5 5 5-2.243 5-5S14.757 2 12 2zM12 10c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3S13.654 10 12 10zM21 21v-1c0-3.859-3.141-7-7-7h-4c-3.86 0-7 3.141-7 7v1h2v-1c0-2.757 2.243-5 5-5h4c2.757 0 5 2.243 5 5v1H21z" />
-                    </svg>
-                </a>
-
-            </div>
-
-
         </div>
 
 
-        <div class="h-6 min-[320px]:hidden sm:flex items-center justify-end shadow-md text-xs md:text-sm lg:text-lg">
+        <div class="hidden sm:flex items-center justify-end text-xs md:text-sm lg:text-lg">
 
             <a class="flex no-underline hover:text-black" href="#">
                 <svg class="fill-current hover:text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -254,7 +206,8 @@
             </a>
         </div>
 
-        <div class="hidden md:flex justify-center cursor-pointer bg-gray-100">
+
+        <div class="hidden sm:flex justify-center cursor-pointer bg-gray-50">
             <div class="hover:bg-gray-200 py-4 px-6">Home</div>
             <div class="hover:bg-gray-200 py-4 px-6">Home</div>
             <div class="hover:bg-gray-200 py-4 px-6">Home</div>
@@ -262,9 +215,7 @@
             <div class="hover:bg-gray-200 py-4 px-6">Home</div>
             <div class="hover:bg-gray-200 py-4 px-6">Home</div>
         </div>
-
     </nav>
-
     <!-- Nav END -->
 
     <div class="carousel container mx-auto" style="max-width:1600px;">
