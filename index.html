@@ -26,7 +26,7 @@
 
 
     <!--Nav start -->
-    <nav class=" shadow mb-1">
+    <nav class="">
         <div class="navbar md:flex justify-between p-0 sm:p-2">
 
             <div class="navbar-start sm:hidden">
@@ -459,34 +459,36 @@
     <div>
         <div class="py-4">
             <fieldset class="border-t-2 mx-2 border-gray-600 rounded-xl">
-                <legend class="px-6 text-[25px] text-center">TOP CATEGORIES</legend>
+                <legend class="px-6 text-2xl text-center">TOP CATEGORIES</legend>
             </fieldset>
         </div>
 
-        <div class="grid grid-cols-4 md:grid-cols-6 gap-1 mx-2 sm:mx-4">
-            <div class="bg-gray-400 h-40 bg-cover bg-center fit" style="background-image: url('https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');">
+        <div class="grid grid-cols-3 md:grid-cols-4 gap-1 mx-2 sm:mx-4">
+            <div class="bg-gray-400 h-40 md:h-60 bg-cover bg-center fit"
+                style="background-image: url('https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');">
             </div>
-            <div class="bg-gray-400 h-40">
+            <div class="bg-gray-400 h-40 md:h-60">
             </div>
-            <div class="bg-gray-400 h-40">
+            <div class="bg-gray-400 h-40 md:h-60">
             </div>
-            <div class="bg-gray-400 h-40">
+            <div class="bg-gray-400 h-40 md:h-60">
             </div>
-            <div class="bg-gray-400 h-40">
+            <div class="bg-gray-400 h-40 md:h-60">
             </div>
-            <div class="bg-gray-400 h-40">
+            <div class="bg-gray-400 h-40 md:h-60">
             </div>
-            <div class="bg-gray-400 h-40">
+            <div class="bg-gray-400 h-40 md:h-60">
             </div>
-            <div class="bg-gray-400 h-40">
+            <div class="bg-gray-400 h-40 md:h-60">
             </div>
-            <div class="bg-gray-400 h-40">
-            </div>
-            <div class="bg-gray-400 h-40">
-            </div>
-            <div class="bg-gray-400 h-40">
-            </div>
-            <div class="bg-gray-400 h-40">
+        </div>
+
+        <div id="msg" class=" flex flex-col items-center border-y-[1px] my-4 py-2">
+            <div class="w-2/3 text-center">
+                <h1 class="text-xl font-semibold pb-2">Do you know how JACKET-POINT got its name?</h1>
+                <p class="text-lg">
+                    The brand took its name from Van Gogh’s iconic painting, 'Sunflower', symbolizing warmth, happiness,
+                    loyalty, and long-lasting connections 🌻</p>
             </div>
         </div>
 
@@ -500,224 +502,224 @@
     <div id="product-items">
 
         <div class="py-4"></div>
-            <fieldset class="border-t-2 mx-2 border-gray-600 rounded-xl">
-                <legend class="px-6 text-[25px]">PRODUCTS</legend>
-            </fieldset>
-        </div>
+        <fieldset class="border-t-2 mx-2 border-gray-600 rounded-xl">
+            <legend class="px-6 text-2xl">NEW ARRIVAL</legend>
+        </fieldset>
+    </div>
 
-        <!-- ✅ Grid Section - Starts Here 👇 -->
-        <article id="container" class="w-full py-2 md:py-4 lg:py-6 px-2 md:px-4 flex justify-center">
-            <section id="Projects"
-                class="w-full  grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 2xl:grid-cols-4 justify-items-center justify-center gap-x-2 md:gap-x-4 gap-y-2 md:gap-y-4 place-content-center">
+    <!-- ✅ Grid Section - Starts Here 👇 -->
+    <article id="container" class="w-full py-2 md:py-4 lg:py-6 px-2 md:px-4 flex justify-center">
+        <section id="Projects"
+            class="w-full  grid grid-cols-3 md:grid-cols-4  lg:grid-cols-5 justify-items-center justify-center gap-x-2 md:gap-x-4 gap-y-2 md:gap-y-4 place-content-center">
 
 
-                <!--   ✅ Product card 1 - Starts Here 👇 -->
-                <div
-                    class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
-                    <a href="#">
-                        <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
-                        <div class="px-4 py-3 w-full">
-                            <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-                            <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-                            <div class="flex items-center w-full">
-                                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                                <del>
-                                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                                </del>
-                                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                                        <path
-                                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                                    </svg></div>
-                            </div>
-
+            <!--   ✅ Product card 1 - Starts Here 👇 -->
+            <div
+                class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
+                    <div class="px-4 py-3 w-full">
+                        <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                        <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                        <div class="flex items-center w-full">
+                            <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                            <del>
+                                <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                            </del>
+                            <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                                </svg></div>
                         </div>
-                    </a>
-                </div>
-                <!--   🛑 Product card 1 - Ends Here  -->
+
+                    </div>
+                </a>
+            </div>
+            <!--   🛑 Product card 1 - Ends Here  -->
 
 
-                <!--   ✅ Product card 1 - Starts Here 👇 -->
-                <div
-                    class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
-                    <a href="#">
-                        <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
-                        <div class="px-4 py-3 w-full">
-                            <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-                            <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-                            <div class="flex items-center w-full">
-                                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                                <del>
-                                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                                </del>
-                                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                                        <path
-                                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                                    </svg></div>
-                            </div>
-
+            <!--   ✅ Product card 1 - Starts Here 👇 -->
+            <div
+                class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
+                    <div class="px-4 py-3 w-full">
+                        <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                        <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                        <div class="flex items-center w-full">
+                            <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                            <del>
+                                <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                            </del>
+                            <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                                </svg></div>
                         </div>
-                    </a>
-                </div>
-                <!--   🛑 Product card 1 - Ends Here  -->
+
+                    </div>
+                </a>
+            </div>
+            <!--   🛑 Product card 1 - Ends Here  -->
 
 
-                <!--   ✅ Product card 1 - Starts Here 👇 -->
-                <div
-                    class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
-                    <a href="#">
-                        <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
-                        <div class="px-4 py-3 w-full">
-                            <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-                            <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-                            <div class="flex items-center w-full">
-                                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                                <del>
-                                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                                </del>
-                                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                                        <path
-                                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                                    </svg></div>
-                            </div>
-
+            <!--   ✅ Product card 1 - Starts Here 👇 -->
+            <div
+                class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
+                    <div class="px-4 py-3 w-full">
+                        <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                        <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                        <div class="flex items-center w-full">
+                            <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                            <del>
+                                <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                            </del>
+                            <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                                </svg></div>
                         </div>
-                    </a>
-                </div>
-                <!--   🛑 Product card 1 - Ends Here  -->
+
+                    </div>
+                </a>
+            </div>
+            <!--   🛑 Product card 1 - Ends Here  -->
 
 
-                <!--   ✅ Product card 1 - Starts Here 👇 -->
-                <div
-                    class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
-                    <a href="#">
-                        <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
-                        <div class="px-4 py-3 w-full">
-                            <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-                            <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-                            <div class="flex items-center w-full">
-                                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                                <del>
-                                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                                </del>
-                                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                                        <path
-                                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                                    </svg></div>
-                            </div>
-
+            <!--   ✅ Product card 1 - Starts Here 👇 -->
+            <div
+                class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
+                    <div class="px-4 py-3 w-full">
+                        <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                        <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                        <div class="flex items-center w-full">
+                            <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                            <del>
+                                <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                            </del>
+                            <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                                </svg></div>
                         </div>
-                    </a>
-                </div>
-                <!--   🛑 Product card 1 - Ends Here  -->
+
+                    </div>
+                </a>
+            </div>
+            <!--   🛑 Product card 1 - Ends Here  -->
 
 
-                <!--   ✅ Product card 1 - Starts Here 👇 -->
-                <div
-                    class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
-                    <a href="#">
-                        <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
-                        <div class="px-4 py-3 w-full">
-                            <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-                            <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-                            <div class="flex items-center w-full">
-                                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                                <del>
-                                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                                </del>
-                                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                                        <path
-                                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                                    </svg></div>
-                            </div>
-
+            <!--   ✅ Product card 1 - Starts Here 👇 -->
+            <div
+                class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
+                    <div class="px-4 py-3 w-full">
+                        <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                        <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                        <div class="flex items-center w-full">
+                            <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                            <del>
+                                <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                            </del>
+                            <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                                </svg></div>
                         </div>
-                    </a>
-                </div>
-                <!--   🛑 Product card 1 - Ends Here  -->
+
+                    </div>
+                </a>
+            </div>
+            <!--   🛑 Product card 1 - Ends Here  -->
 
 
-                <!--   ✅ Product card 1 - Starts Here 👇 -->
-                <div
-                    class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
-                    <a href="#">
-                        <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
-                        <div class="px-4 py-3 w-full">
-                            <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-                            <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-                            <div class="flex items-center w-full">
-                                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                                <del>
-                                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                                </del>
-                                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                                        <path
-                                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                                    </svg></div>
-                            </div>
-
+            <!--   ✅ Product card 1 - Starts Here 👇 -->
+            <div
+                class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
+                    <div class="px-4 py-3 w-full">
+                        <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                        <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                        <div class="flex items-center w-full">
+                            <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                            <del>
+                                <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                            </del>
+                            <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                                </svg></div>
                         </div>
-                    </a>
-                </div>
-                <!--   🛑 Product card 1 - Ends Here  -->
+
+                    </div>
+                </a>
+            </div>
+            <!--   🛑 Product card 1 - Ends Here  -->
 
 
-                <!--   ✅ Product card 1 - Starts Here 👇 -->
-                <div
-                    class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
-                    <a href="#">
-                        <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-                            alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
-                        <div class="px-4 py-3 w-full">
-                            <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
-                            <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
-                            <div class="flex items-center w-full">
-                                <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
-                                <del>
-                                    <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
-                                </del>
-                                <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                                        fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
-                                        <path fill-rule="evenodd"
-                                            d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
-                                        <path
-                                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                                    </svg></div>
-                            </div>
-
+            <!--   ✅ Product card 1 - Starts Here 👇 -->
+            <div
+                class="w-full h-fit bg-white shadow-md rounded md:rounded-lg duration-300 hover:scale-[1.03] md:hover:scale-105 hover:shadow-xl">
+                <a href="#">
+                    <img src="https://images.unsplash.com/photo-1646753522408-077ef9839300?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8NjZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Product" class="h-44 md:h-60  w-full object-fit rounded-t md:rounded-t-lg" />
+                    <div class="px-4 py-3 w-full">
+                        <span class="text-gray-400 mr-3 uppercase text-xs">Brand</span>
+                        <p class="text-lg font-bold text-black truncate block capitalize">Product Name</p>
+                        <div class="flex items-center w-full">
+                            <p class="text-lg font-semibold text-black cursor-auto my-3">$149</p>
+                            <del>
+                                <p class="text-sm text-gray-600 cursor-auto ml-2">$199</p>
+                            </del>
+                            <div class="ml-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                    <path
+                                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                                </svg></div>
                         </div>
-                    </a>
-                </div>
-                <!--   🛑 Product card 1 - Ends Here  -->
+
+                    </div>
+                </a>
+            </div>
+            <!--   🛑 Product card 1 - Ends Here  -->
 
 
-            </section>
-        </article>
+        </section>
+    </article>
 
-        <!-- 🛑 Grid Section - Ends Here -->
+    <!-- 🛑 Grid Section - Ends Here -->
     </div>
     <!-- <product section end  -->
 
@@ -725,7 +727,7 @@
 
 
     <!-- footer start  -->
-     <footer>
+    <footer>
         <div class="flex justify-evenly footer bg-base-200 text-base-content p-10">
             <nav>
                 <h6 class="footer-title">Services</h6>
@@ -748,7 +750,7 @@
                 <a class="link link-hover">Cookie policy</a>
             </nav>
         </div>
-    
+
         <div class="md:flex md:p-4 bg-base-200 gap-x-4 space-y-1">
             <div class="md:size-[50%] space-y-1">
                 <div class="collapse collapse-plus rounded-[3px] bg-base-200 shadow-md">
@@ -772,7 +774,7 @@
                         <p>hello</p>
                     </div>
                 </div>
-    
+
             </div>
             <div class="md:size-[50%] space-y-1">
                 <div class="collapse collapse-plus rounded-[3px] bg-base-200 shadow-md">
@@ -796,12 +798,12 @@
                         <p>hello</p>
                     </div>
                 </div>
-    
+
             </div>
-    
-    
+
+
         </div>
-    
+
         <div class="footer bg-neutral text-neutral-content flex items-center justify-between p-4">
             <aside class="grid-flow-col items-center">
                 <svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
@@ -814,21 +816,24 @@
             </aside>
             <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
                 <a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
                         <path
                             d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
                         </path>
                     </svg>
                 </a>
                 <a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
                         <path
                             d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
                         </path>
                     </svg>
                 </a>
                 <a>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        class="fill-current">
                         <path
                             d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
                         </path>
@@ -836,7 +841,7 @@
                 </a>
             </nav>
         </div>
-     </footer>
+    </footer>
     <!-- footer end  -->
 
 </body>
